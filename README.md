@@ -32,13 +32,13 @@ Gotta love some stats
 -->  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=00xkhaled&theme=dracula&hide_border=false&include_all_commits=false&count_private=true" width="32%" alt="GitHub Stats">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=00xkhaled&theme=dracula&hide_border=false" width="35%" alt="GitHub Streak Stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=00xkhaled&theme=dracula&hide_border=false&include_all_commits=false&count_private=true&layout=compact" width="25%" alt="Top Languages">
+  <img src="https://github-readme-stats.vercel.app/api?username=00xglitch&theme=dracula&hide_border=false&include_all_commits=false&count_private=true" width="32%" alt="GitHub Stats">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=00xglitch&theme=dracula&hide_border=false" width="35%" alt="GitHub Streak Stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=00xglitch&theme=dracula&hide_border=false&include_all_commits=false&count_private=true&layout=compact" width="25%" alt="Top Languages">
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=00xkhaled&theme=dracula&no-frame=false&no-bg=false&margin-w=4&rank=-C" width="786" alt="GitHub Trophies">
+  <img src="https://github-profile-trophy.vercel.app/?username=00xglitch&theme=dracula&no-frame=false&no-bg=false&margin-w=4&rank=-C" width="786" alt="GitHub Trophies">
 </p>
 
 ## 🏆 Projects
