@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="Khaled Daoudieh, aka Glitch. Deputy CTO, AI agent and infrastructure builder.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset=".55" stop-color="#0b0f1c"/>
+      <stop offset="1" stop-color="#160c2e"/>
+    </linearGradient>
+    <radialGradient id="glowP" cx=".82" cy=".5" r=".42">
+      <stop offset="0" stop-color="#6e40c9" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#6e40c9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowC" cx=".12" cy="1" r=".45">
+      <stop offset="0" stop-color="#00d4ff" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#00d4ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".5" stop-color="#c9b8ff"/>
+      <stop offset="1" stop-color="#00d4ff"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.3 0;0.3 0;-0.3 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00d4ff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#00d4ff" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#00d4ff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#30363d" stroke-width="1" opacity=".35"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="380" rx="20"/></clipPath>
+    <clipPath id="typeClip">
+      <rect x="70" y="52" width="0" height="30">
+        <animate attributeName="width" values="0;0;300" keyTimes="0;0.25;1" dur="2s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .rise { opacity: 0; animation: rise .9s cubic-bezier(.2,.8,.2,1) forwards; }
+    .d1 { animation-delay: .9s; } .d2 { animation-delay: 1.3s; } .d3 { animation-delay: 1.7s; }
+    .d4 { animation-delay: 2.1s; } .d5 { animation-delay: 2.5s; }
+    @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .gc { animation: gc 4s steps(1) infinite 3s; opacity: 0; }
+    .gm { animation: gm 4s steps(1) infinite 3s; opacity: 0; }
+    @keyframes gc { 0%,88%,100% { opacity: 0; transform: translate(0,0); }
+                    89% { opacity: .85; transform: translate(-4px,-2px); }
+                    91% { opacity: .85; transform: translate(3px,1px); }
+                    93% { opacity: .7; transform: translate(-2px,2px); } 95% { opacity: 0; } }
+    @keyframes gm { 0%,88%,100% { opacity: 0; transform: translate(0,0); }
+                    89% { opacity: .85; transform: translate(4px,2px); }
+                    91% { opacity: .85; transform: translate(-3px,-1px); }
+                    93% { opacity: .7; transform: translate(2px,-2px); } 95% { opacity: 0; } }
+    .jit { animation: jit 4s steps(1) infinite 3s; }
+    @keyframes jit { 0%,88%,95%,100% { transform: translate(0,0); } 90% { transform: translate(2px,0); } 92% { transform: translate(-2px,0); } }
+    .chip rect { fill: #161b22; stroke: #30363d; }
+    .chip text { fill: #c9d1d9; font-size: 13px; }
+    .node circle.core { fill: #0d1117; stroke-width: 2; }
+    .node text { font-size: 12px; font-weight: 700; fill: #e6edf3; }
+    .pulse { animation: pulse 2.4s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes pulse { 0% { transform: scale(.6); opacity: .9; } 100% { transform: scale(1.9); opacity: 0; } }
+    .blinkdot { animation: blinkdot 1.6s ease-in-out infinite; }
+    @keyframes blinkdot { 50% { opacity: .25; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .rise, .gc, .gm { opacity: 1; } .gc, .gm { opacity: 0; } }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <!-- background -->
+    <rect width="1200" height="380" fill="url(#bg)"/>
+    <g>
+      <rect x="-40" y="-40" width="1280" height="460" fill="url(#grid)"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;40 40" dur="6s" repeatCount="indefinite"/>
+    </g>
+    <rect width="1200" height="380" fill="url(#glowP)"/>
+    <rect width="1200" height="380" fill="url(#glowC)"/>
+    <rect width="1200" height="60" fill="url(#scan)">
+      <animate attributeName="y" values="-60;380" dur="5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- ───────────── LEFT: identity ───────────── -->
+    <g class="mono" font-size="17">
+      <g clip-path="url(#typeClip)">
+        <text x="72" y="72"><tspan fill="#7ee787">glitch@khaled</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#79c0ff">~</tspan><tspan fill="#8b949e">$ whoami</tspan></text>
+      </g>
+      <rect class="cursor" x="312" y="57" width="9" height="19" fill="#00d4ff">
+        <animate attributeName="x" values="72;72;312" keyTimes="0;0.25;1" dur="2s" fill="freeze"/>
+      </rect>
+    </g>
+
+    <g class="sans rise d1" font-weight="800" font-size="66" letter-spacing="2">
+      <text class="gc" x="68" y="152" fill="#00d4ff">KHALED DAOUDIEH</text>
+      <text class="gm" x="68" y="152" fill="#ff3cac">KHALED DAOUDIEH</text>
+      <text class="jit" x="68" y="152" fill="url(#nameGrad)">KHALED DAOUDIEH</text>
+    </g>
+
+    <g class="mono rise d2" font-size="16">
+      <text x="72" y="188" fill="#8b949e">aka <tspan fill="#00d4ff" font-weight="700">Glitch</tspan>  //  builder · breaker · automator</text>
+    </g>
+
+    <g class="sans rise d3" font-size="19" fill="#e6edf3">
+      <text x="72" y="232" xml:space="preserve"><tspan font-weight="700">Deputy CTO</tspan><tspan fill="#8b949e"> @ Camsol   ·   </tspan><tspan font-weight="700">CTO</tspan><tspan fill="#8b949e"> @ Fundkom   ·   </tspan><tspan font-weight="700">Partner</tspan><tspan fill="#8b949e"> @ Fixchain &amp; Ballrs</tspan></text>
+    </g>
+
+    <g class="sans rise d4" font-size="16" fill="#9aa4b2">
+      <text x="72" y="264">Production AI agents, ML infrastructure and hardware that talks back.</text>
+    </g>
+
+    <g class="mono rise d5">
+      <g class="chip"><rect x="72" y="292" width="104" height="30" rx="15"/><text x="124" y="312" text-anchor="middle">AI Agents</text></g>
+      <g class="chip"><rect x="186" y="292" width="110" height="30" rx="15"/><text x="241" y="312" text-anchor="middle">Kubernetes</text></g>
+      <g class="chip"><rect x="306" y="292" width="74" height="30" rx="15"/><text x="343" y="312" text-anchor="middle">Kafka</text></g>
+      <g class="chip"><rect x="390" y="292" width="64" height="30" rx="15"/><text x="422" y="312" text-anchor="middle">IoT</text></g>
+      <g class="chip"><rect x="464" y="292" width="104" height="30" rx="15"/><text x="516" y="312" text-anchor="middle">Pentesting</text></g>
+      <g class="chip"><rect x="578" y="292" width="116" height="30" rx="15"/><text x="636" y="312" text-anchor="middle">Raspberry Pi</text></g>
+    </g>
+
+    <!-- ───────────── RIGHT: agent network ───────────── -->
+    <g transform="translate(985 190)">
+      <!-- rotating outer rings -->
+      <circle r="150" fill="none" stroke="#6e40c9" stroke-opacity=".35" stroke-width="1.5" stroke-dasharray="4 10">
+        <animateTransform attributeName="transform" type="rotate" values="0;360" dur="40s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="168" fill="none" stroke="#00d4ff" stroke-opacity=".15" stroke-width="1" stroke-dasharray="60 30 4 30">
+        <animateTransform attributeName="transform" type="rotate" values="360;0" dur="60s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- orbiting packets -->
+      <g>
+        <circle cx="150" cy="0" r="4" fill="#00d4ff" filter="url(#glow)"/>
+        <circle cx="-150" cy="0" r="3" fill="#ff3cac" filter="url(#glow)"/>
+        <animateTransform attributeName="transform" type="rotate" values="0;360" dur="12s" repeatCount="indefinite"/>
+      </g>
+
+      <!-- links hub to nodes, with flowing data -->
+      <g stroke-width="2" fill="none" stroke-linecap="round">
+        <g stroke="#30363d">
+          <line x1="0" y1="0" x2="0" y2="-110"/><line x1="0" y1="0" x2="95" y2="-55"/>
+          <line x1="0" y1="0" x2="95" y2="55"/><line x1="0" y1="0" x2="0" y2="110"/>
+          <line x1="0" y1="0" x2="-95" y2="55"/><line x1="0" y1="0" x2="-95" y2="-55"/>
+        </g>
+        <g stroke="#00d4ff" stroke-dasharray="6 14" opacity=".9">
+          <line x1="0" y1="0" x2="0" y2="-110"/><line x1="0" y1="0" x2="95" y2="55"/><line x1="0" y1="0" x2="-95" y2="55"/>
+          <animate attributeName="stroke-dashoffset" values="40;0" dur="1.2s" repeatCount="indefinite"/>
+        </g>
+        <g stroke="#a371f7" stroke-dasharray="6 14" opacity=".9">
+          <line x1="0" y1="0" x2="95" y2="-55"/><line x1="0" y1="0" x2="0" y2="110"/><line x1="0" y1="0" x2="-95" y2="-55"/>
+          <animate attributeName="stroke-dashoffset" values="0;40" dur="1.6s" repeatCount="indefinite"/>
+        </g>
+      </g>
+
+      <!-- satellite nodes -->
+      <g class="mono node" text-anchor="middle">
+        <g transform="translate(0 -110)"><circle class="core" r="24" stroke="#00d4ff"/><text y="4">LLM</text></g>
+        <g transform="translate(95 -55)"><circle class="core" r="24" stroke="#a371f7"/><text y="4">K8s</text></g>
+        <g transform="translate(95 55)"><circle class="core" r="24" stroke="#00d4ff"/><text y="4">DATA</text></g>
+        <g transform="translate(0 110)"><circle class="core" r="24" stroke="#a371f7"/><text y="4">IoT</text></g>
+        <g transform="translate(-95 55)"><circle class="core" r="24" stroke="#00d4ff"/><text y="4">SEC</text></g>
+        <g transform="translate(-95 -55)"><circle class="core" r="24" stroke="#a371f7"/><text y="4">OPS</text></g>
+      </g>
+
+      <!-- hub -->
+      <circle class="pulse" r="34" fill="none" stroke="#00d4ff" stroke-width="2"/>
+      <circle class="pulse" r="34" fill="none" stroke="#a371f7" stroke-width="2" style="animation-delay:1.2s"/>
+      <circle r="36" fill="#0d1117" stroke="url(#nameGrad)" stroke-width="3" filter="url(#glow)"/>
+      <g class="mono" text-anchor="middle">
+        <text y="-3" font-size="15" font-weight="800" fill="#ffffff">&lt;/&gt;</text>
+        <text y="15" font-size="9" font-weight="700" fill="#00d4ff" letter-spacing="1">AGENTS</text>
+      </g>
+    </g>
+
+    <!-- status bar -->
+    <g class="mono" font-size="12" fill="#6e7681">
+      <circle class="blinkdot" cx="1062" cy="356" r="4" fill="#3fb950"/>
+      <text x="1074" y="360">online · DUS</text>
+    </g>
+
+    <!-- frame -->
+    <rect x=".75" y=".75" width="1198.5" height="378.5" rx="19.5" fill="none" stroke="#30363d" stroke-width="1.5"/>
+  </g>
+</svg>
