@@ -1,18 +1,18 @@
 <!-- ═══════════════════════════  HEADER  ═══════════════════════════ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:6e40c9,100:00d4ff&height=200&section=header&text=Khaled%20Daoudieh&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=aka%20Glitch%20%E2%80%A2%20CTO%20%E2%80%A2%20Agent%20Builder%20%E2%80%A2%20Breaker%20of%20Things&descAlignY=58&descSize=16&animation=fadeIn" width="100%" alt="header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:6e40c9,100:00d4ff&height=200&section=header&text=Khaled%20Daoudieh&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=Deputy%20CTO%20%E2%80%A2%20AI%20%26%20Agent%20Infrastructure%20%E2%80%A2%20Builder&descAlignY=58&descSize=16&animation=fadeIn" width="100%" alt="header"/>
 
 <a href="https://khaled.xyz">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=800&color=00D4FF&center=true&vCenter=true&width=640&lines=Building+production+AI+agents+that+actually+ship;CTO+%40+Fundkom+%E2%80%A2+Deputy+CTO+%40+Camsol;Rust+%E2%80%A2+Bun+%E2%80%A2+Go+%E2%80%A2+K8s+%E2%80%A2+Local+LLMs;Pentester+at+heart.+Automator+by+habit." alt="typing"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=800&color=00D4FF&center=true&vCenter=true&width=680&lines=Building+AI%2FML+infrastructure+for+startups+%26+enterprises;Production+AI+agents+that+actually+ship;Kubernetes+%E2%80%A2+Kafka+%E2%80%A2+LLMs+%E2%80%A2+IoT;Pentester+at+heart.+Automator+by+habit." alt="typing"/>
 </a>
 
 <br/>
 
 <a href="https://khaled.xyz"><img src="https://img.shields.io/badge/khaled.xyz-0d1117?style=for-the-badge&logo=googlechrome&logoColor=00d4ff" alt="website"/></a>
-<a href="https://fundkom.com"><img src="https://img.shields.io/badge/Fundkom-0d1117?style=for-the-badge&logo=rocket&logoColor=6e40c9" alt="Fundkom"/></a>
-<a href="https://camsol.io"><img src="https://img.shields.io/badge/Camsol-0d1117?style=for-the-badge&logo=cloudflare&logoColor=00d4ff" alt="Camsol"/></a>
-<img src="https://img.shields.io/badge/D%C3%BCsseldorf_%E2%87%84_Amman-0d1117?style=for-the-badge&logo=googlemaps&logoColor=6e40c9" alt="location"/>
+<a href="https://www.linkedin.com/in/daoudieh"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=00d4ff" alt="LinkedIn"/></a>
+<a href="https://github.com/00xglitch"><img src="https://img.shields.io/badge/00xglitch-0d1117?style=for-the-badge&logo=github&logoColor=6e40c9" alt="GitHub"/></a>
+<img src="https://img.shields.io/badge/D%C3%BCsseldorf%2C_DE-0d1117?style=for-the-badge&logo=googlemaps&logoColor=6e40c9" alt="location"/>
 <img src="https://komarev.com/ghpvc/?username=00xglitch&style=for-the-badge&color=6e40c9&label=VISITORS" alt="visitors"/>
 
 </div>
@@ -24,122 +24,135 @@
 
 <table>
 <tr>
-<td width="58%" valign="top">
+<td width="56%" valign="top">
 
-I build **AI agent systems that run in production**, the platforms they live on, and the boring infrastructure that keeps them alive at 3 AM.
-Somewhere between a CTO's calendar and a pentester's terminal.
+I build **AI/ML infrastructure and production agent systems** for startups and enterprises — from the Kubernetes cluster up to the agent that answers the customer.
+
+Over the years that has meant shipping chatbots used by thousands of employees across Europe, IoT platforms for supply chains, Kafka observability tooling, and security tools for red teams.
 
 ```yaml
 roles:
-  - CTO               @ Fundkom.com
-  - Deputy CTO        @ Camsol.io
-  - Managing Partner  @ Fixchain.ai · Ballrs.ai
-based_in:  Düsseldorf 🇩🇪  ⇄  Amman 🇯🇴  ⇄  Dubai 🇦🇪
-alma_mater: German Jordanian University (GJU)
-speaks:    [Arabic, English, German]
-focus_now: [multi-agent orchestration, local LLM inference,
-            Bun/Hono stacks, MENA startup infra]
+  Camsol.io:     Deputy CTO
+  Fundkom.com:   CTO
+  Fixchain.ai:   Managing Partner · Technical Consultant
+  Ballrs.ai:     Managing Partner · Technical Consultant
+education:  German Jordanian University (GJU)
+speaks:     [Arabic, English, German]
 ```
 
 </td>
-<td width="42%" valign="top">
+<td width="44%" valign="top">
 
-**🧠 Right now**
-- 🤖 Running a fleet of production agents on **OpenClaw / GoClaw**
-- 🦀 Building **`oops`** — a Rust CLI that fixes your typos with a local LLM
-- ⚡ Migrating Fundkom from **Laravel → Bun + Hono + Drizzle + Next.js**
-- 🏗️ Shipping client products across Jordan & the Gulf
+**🏢 What I lead**
+
+- **Camsol** — AI/ML infrastructure for startups & enterprises
+- **Fundkom** — fundraising & funding-readiness platform for MENA startups
+- **Fixchain** & **Ballrs** — AI ventures, technical direction & architecture
 
 **🔓 Off the clock**
-- 🛡️ CTFs, Flipper Zero, pentesting
-- 🍓 Raspberry Pi builds & quadcopters
-- 🖨️ 3D printing & a woodworking shop
-- ☀️ DIY off-grid solar for the workshop
-- 🎧 Vinyl mixing · 🏊 swimming
+
+🛡️ CTFs & Flipper Zero · 🍓 Raspberry Pi builds
+🚁 Quadcopters · 🖨️ 3D printing · 🪵 Woodworking
+☀️ Off-grid solar · 🎧 Vinyl mixing · 🏊 Swimming
 
 </td>
 </tr>
 </table>
 
-<!-- ═══════════════════════════  FEATURED  ═══════════════════════════ -->
-## 🚀 Featured Work
+<!-- ═══════════════════════════  AGENTS  ═══════════════════════════ -->
+## 🤖 Agent Systems
+
+<table>
+<tr>
+<td width="100%">
+
+I design and operate a **fleet of production AI agents** — supervised, multi-model, and running real workloads every day.
+
+| | |
+|---|---|
+| 🧭 **Orchestration** | Supervisor agent routes work; tiered escalation from small models → frontier models → a human |
+| 🔌 **Multi-provider** | Model-agnostic runtime spanning 20+ LLM providers |
+| 🏭 **Domain agents** | Purpose-built assistants for hospitality, non-profit operations, energy engineering and startup fundraising |
+| ⚙️ **Agent ops** | Agents that run their own standups, maintenance windows and end-of-day reports |
+| 👾 **Embodied** | Experimenting with physical Raspberry Pi "faces" for the agent fleet |
+
+</td>
+</tr>
+</table>
+
+<!-- ═══════════════════════════  PORTFOLIO  ═══════════════════════════ -->
+## 🗂️ Selected Work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🦾 OpenClaw / GoClaw
-**Multi-agent platform running real businesses.**
+### 🧠 AI & Assistants
 
-A supervised agent ecosystem: a supervisor agent routes work, with escalation layers up to frontier models and finally a human. GoClaw speaks **20+ LLM providers**.
+**🚘 Mercedes-Benz Customer Service Chatbot**
+Chatbot for **5,000 dealer employees across Europe** — IBM Watson image recognition, Node-RED microservices, full CI/CD, and a research-led UX redesign.
 
-- Runs on containerd + nerdctl on ARM64 — no systemd required
-- Daily standups, maintenance windows & EOD summaries — run by the agents
-- Physical **Raspberry Pi avatar display** so the agents have a face 👾
+**✨ AI Gelb**
+Multi-model AI assistant platform — conversational UI, context management and multi-modal capabilities for content, analysis and automation.
 
-`Go` `Docker` `containerd` `ARM64` `LLM orchestration`
+`Watson` `Node-RED` `LLMs` `CI/CD`
 
 </td>
 <td width="50%" valign="top">
 
-### 🦀 oops
-**`thefuck`, rebuilt in Rust — with a brain.**
+### ☸️ Infrastructure & Data
 
-Typo'd a command? `oops` fixes it. A tiered pipeline tries fast rule-based fixes first and only falls back to a **local LLM** when it has to — no API keys, no network.
+**📡 Strimzi Monitoring UI**
+Monitoring dashboard for Kafka clusters on Strimzi — Prometheus metrics, Grafana views, Redpanda support, alerting.
 
-- Local inference via `llama-cpp-2`
-- Default model: **Qwen2.5-Coder-1.5B**
-- Learns from your history with `sqlite-vec`
+**🌐 Dynamic Network Monitoring Tool**
+Real-time visualisation & alerting for internal network protocols — event-driven Python microservices with an Angular front end.
 
-`Rust` `llama.cpp` `sqlite-vec` `CLI`
+`Kafka` `Kubernetes` `Prometheus` `Grafana` `Angular`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 💸 Fundkom
-**Fundraising & bid infrastructure for MENA startups.**
+### 🛰️ IoT & Hardware
 
-Leading the platform as CTO — and rebuilding it from a Laravel monolith onto a modern TypeScript edge stack.
+**⛽ GasVisor**
+IoT resource & supply-chain platform for gas distribution — live sensor data, inventory tracking, analytics, microservices on Kubernetes.
 
-- **Bun + Hono** API · **Drizzle** schema · **Better Auth** · **Next.js** front end
-- Six-phase migration plan
-- Agent workflows that monitor the MENA funding ecosystem
+**🚁 UAV Surveillance System**
+Bachelor's thesis: a quadcopter that detects and tracks objects autonomously — Pixhawk, Raspberry Pi vision pipeline, radio telemetry.
 
-`Bun` `Hono` `Drizzle` `Next.js` `TypeScript`
+`IoT` `K8s` `Raspberry Pi` `Computer Vision`
 
 </td>
 <td width="50%" valign="top">
 
-### 🤖 Agents in the Wild
-**Purpose-built assistants for real clients.**
+### 🛡️ Security
 
-| Agent | What it does |
-|---|---|
-| 🍽️ **Yaba** | Culinary assistant for a Dubai restaurant |
-| 🤝 **Kareem** | Operations agent for a Jordanian NGO |
-| ☀️ **Labeeb** | Assistant for renewable-energy engineering |
-| 💼 **Fareed** | Fundkom's agent, with a full escalation chain |
+**🍎 Bella**
+Python post-exploitation & data-mining tool for macOS — reconnaissance and assessment for penetration testers.
 
-`Claude` `GoClaw` `RAG` `Tool use`
+Plus a steady habit of CTFs, Flipper Zero experiments and hardware hacking.
+
+`Python` `macOS` `Pentesting` `Red Team`
 
 </td>
 </tr>
 </table>
 
 <details>
-<summary><b>🧪 More things I'm building</b> &nbsp;—&nbsp; <i>click to expand</i></summary>
+<summary><b>🧩 Products & client builds</b> &nbsp;—&nbsp; <i>click to expand</i></summary>
 <br/>
 
-| Project | What | Status |
-|---|---|---|
-| ✂️ **Qass (قص)** | Barber booking platform for Jordan/MENA — Flutter apps, web dashboards, AI agent | 🟡 Building |
-| 🎬 **Modern Solution** | AI video generation | 🟡 Building |
-| 📞 **CallMe** | Client product | 🟡 Building |
-| 🧩 **Hafliti** | Product in development | 🟡 Building |
-| 📱 **Nadeem** | Application — new team, new office | 🟡 Building |
-| 📡 **Claw** | P2P file transfer CLI as an agent-native transport layer | 💭 Ideating |
+| Project | What it is |
+|---|---|
+| 🏛️ **Ammerli** | Platform matching clients with architects via a visual matching algorithm |
+| ⚡ **Cloudenergi** | Energy analytics portal — real-time dashboards & multi-source API aggregation |
+| 🚗 **LessGo** | Concept & MVP for algorithm-driven, trust-first student ride sharing |
+| ☕ **Dimitri's Coffee** | High-performance e-commerce for a specialty roastery — orders, payments, inventory |
+| 🚀 **POS Rocket** | Company site showcasing webhook & API integration architecture |
+| 🔋 **Dar al Fursan** | SEO-optimised product site for a battery supplier |
 
 </details>
 
@@ -150,25 +163,47 @@ Leading the platform as CTO — and rebuilding it from a Laravel monolith onto a
 
 **Languages**
 <br/>
-<img src="https://skillicons.dev/icons?i=rust,go,ts,js,python,php,java,c,cpp,ruby&theme=dark" alt="languages"/>
+<img src="https://skillicons.dev/icons?i=python,ts,js,go,php,java,c,cpp,ruby,bash&theme=dark" alt="languages"/>
 
 **Frameworks & Runtimes**
 <br/>
 <img src="https://skillicons.dev/icons?i=bun,nodejs,nextjs,react,angular,laravel,rails,flutter,tailwind,wordpress&theme=dark" alt="frameworks"/>
 
-**Infra & DevOps**
+**Infra, Data & DevOps**
 <br/>
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,ansible,aws,cloudflare,githubactions,linux,ubuntu,nginx&theme=dark" alt="infra"/>
+<img src="https://skillicons.dev/icons?i=kubernetes,docker,terraform,ansible,aws,kafka,prometheus,grafana,githubactions,linux&theme=dark" alt="infra"/>
 
 **Data & Hardware**
 <br/>
-<img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,redis,raspberrypi,arduino,bash,git,vim,vscode&theme=dark" alt="data"/>
-
-<br/>
-
-<sub>📚 <b>Leveling up:</b> Kubernetes · Helm · Terraform · Ansible · Traefik · Directus · GitHub Actions</sub>
+<img src="https://skillicons.dev/icons?i=postgres,mysql,redis,sqlite,raspberrypi,arduino,nginx,cloudflare,git,vim&theme=dark" alt="data"/>
 
 </div>
+
+<!-- ═══════════════════════════  RECOGNITION  ═══════════════════════════ -->
+## 🏆 Recognition & Community
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Awards**
+- 🥇 **Hult Prize** — 1st place, GJU
+- 🥉 **Hult Prize** — Top 3, Jordan
+- 🌏 **Hult Prize** — Top 6, Malaysia
+- 🤖 **FIRST LEGO League Sumo** — 3rd place, Jordan
+
+</td>
+<td width="50%" valign="top">
+
+**Community**
+- 🐧 Active member, **Jordan Open Source Association**
+- 🚀 Mentor & organizer, **Startup Weekend**
+- 🎓 President, **Google Student Club** @ GJU · IEEE · Robotics Club
+- 💻 Organizer, **GJU Code Camp**
+
+</td>
+</tr>
+</table>
 
 <!-- ═══════════════════════════  STATS  ═══════════════════════════ -->
 ## 📊 Stats
