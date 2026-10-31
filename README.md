@@ -2,7 +2,7 @@
 <div align="center">
 
 <a href="https://khaled.xyz">
-  <img src="./assets/banner.svg" width="100%" alt="Khaled Daoudieh · aka Glitch · Deputy CTO, AI agent and infrastructure builder"/>
+  <img src="./banner.svg" width="100%" alt="Khaled Daoudieh · aka Glitch · Deputy CTO, AI agent and infrastructure builder"/>
 </a>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=00D4FF&center=true&vCenter=true&width=720&lines=Shipping+AI+agents+that+run+in+production;Building+AI%2FML+infrastructure+for+startups+%26+enterprises;Kubernetes+%C2%B7+Kafka+%C2%B7+LLMs+%C2%B7+IoT+%C2%B7+Security;Pentester+at+heart.+Automator+by+habit." alt="typing intro"/>
